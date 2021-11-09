@@ -1,0 +1,41 @@
+@media only screen and (max-width: 800px) {
+    .charts{
+        width: 200px;
+        height: 200px;
+        border: 1px solid black;
+        padding-bottom: 25px;
+        padding: 35px;
+      }
+      .select{
+        padding: 5px;
+        margin-bottom: 15px;
+        margin-top: 11px;
+        float: left;
+        margin-left: 20px;
+      }
+  }
+  @media only screen and (max-width: 350px) {
+    .charts{
+        width: 100px;
+        height: 100px;
+        border: 1px solid black;
+        padding-bottom: 15px;
+        padding: 15px;
+      }
+      .select{
+        padding: 5px;
+        margin-bottom: 15px;
+        margin-top: 11px;
+        margin-left:10px;
+      }
+  }
+  @media only screen and (max-width: 900px) {
+    .charts{
+        width: 150px;
+        height: 150px;
+        border: 1px solid black;
+        padding-bottom: 15px;
+        padding: 15px;
+      }
+     
+  }

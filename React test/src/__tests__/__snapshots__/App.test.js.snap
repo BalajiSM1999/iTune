@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="App"
+>
+  <div>
+    <button
+      onClick={[Function]}
+    >
+      get
+    </button>
+    <div>
+      <h1
+        className="heading"
+      >
+        iTune Top Paid Applications
+      </h1>
+      <div
+        className="charts"
+      >
+        <canvas
+          height={400}
+          onClick={[Function]}
+          role="img"
+          width={600}
+        />
+      </div>
+    </div>
+    <div>
+      <div
+        className="funcs"
+      >
+        <div
+          className="search"
+        >
+          <p>
+            Search: 
+            <input
+              id="searchTerm"
+              onChange={[Function]}
+              onKeyPress={[Function]}
+              placeholder="filter by app name"
+              type="text"
+            />
+          </p>
+        </div>
+        <select
+          className="select"
+          onChange={[Function]}
+          onClick={[Function]}
+        >
+          <option
+            value="[im:releaseDate].label"
+          >
+            Date
+          </option>
+          <option
+            value="title.label"
+          >
+            Name
+          </option>
+          <option
+            value="['im:price'].attributes.amount"
+          >
+            Price
+          </option>
+          <option
+            value="category.attributes.label"
+          >
+            Category
+          </option>
+        </select>
+      </div>
+      <div
+        id="divided"
+      />
+    </div>
+  </div>
+</div>
+`;
